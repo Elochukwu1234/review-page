@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: rgb(239, 240, 240);
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(38, 34, 34);
+  margin-bottom: 5px;
+}
+
+.line {
+  border-bottom: 2px solid rgb(30, 158, 237);
+  margin: 0 auto 30px;
+  width: 13%;
+}
+
+.card {
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px 2px rgb(0, 0, 0, 0.5);
+}
+
+.circle {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(30, 158, 237);
+  position: relative;
+}
+
+img {
+  height: 95px;
+  width: 95px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.double-qoutes-circle {
+  height: 25px;
+  width: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(30, 158, 237);
+  position: absolute;
+  top: 15px;
+  left: -5px;
+}
+
+.double-qoutes-circle span {
+  font-size: 40px;
+  color: white;
+  position: relative;
+  bottom: 6px;
+  left: 6px;
+}
+
+.name {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(38, 34, 34);
+}
+
+.job-title {
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(30, 158, 237);
+}
+
+p {
+  margin-top: 5px;
+  font-size: 15px;
+  color: rgb(38, 34, 34);
+  font-weight: 400;
+  text-align: center;
+}
+
+.signs {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(30, 158, 237);
+}
+
+.signs span {
+  display: inline-block;
+  padding-inline: 5px;
+}
+
+button {
+  margin-top: 10px;
+  border: 2px solid rgb(30, 158, 237);
+  border-radius: 5px;
+  padding: 2px 5px;
+  color: rgb(30, 158, 237);
+}
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  .line {
+    border-bottom: 4px solid rgb(30, 158, 237);
+  }
+
+  .card {
+    width: 75%;
+  }
+
+  .circle {
+    height: 130px;
+    width: 130px;
+  }
+
+  img {
+    height: 125px;
+    width: 125px;
+  }
+
+  .double-qoutes-circle {
+    height: 40px;
+    width: 40px;
+  }
+
+  .double-qoutes-circle span {
+    font-size: 55px;
+    bottom: 6px;
+    left: 9px;
+  }
+
+  .name,
+  .job-title,
+  p,
+  button {
+    font-size: 20px;
+  }
+
+  .signs span {
+    font-size: 30px;
+    padding-inline: 7px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+
+  .line {
+    border-bottom: 6px solid rgb(30, 158, 237);
+    margin-bottom: 45px;
+  }
+
+  .card {
+    width: 60%;
+    padding: 30px;
+  }
+
+  .circle {
+    height: 165px;
+    width: 165px;
+  }
+
+  img {
+    height: 155px;
+    width: 155px;
+  }
+
+  .double-qoutes-circle {
+    height: 50px;
+    width: 50px;
+  }
+
+  .double-qoutes-circle span {
+    font-size: 67.5px;
+    bottom: 6px;
+    left: 13px;
+  }
+
+  .name,
+  .job-title,
+  p,
+  button {
+    font-size: 30px;
+  }
+
+  .signs span {
+    font-size: 40px;
+    padding-inline: 7px;
+  }
+
+  button {
+    padding: 3px 6px;
+  }
+}
